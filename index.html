@@ -358,6 +358,20 @@
 						</li>
 					</ul>
 				</div>
+				<form>
+					<div class="subscribe-blok">
+						<p class="subscribe-text">Subscribe</p>
+						<label>
+							<input type="email" name="email" class="subscribe-in" placeholder="E-mail" />
+							<button type="submit" class="subscribe-btn">
+								Subscribe
+								<svg class="subscribe-svg">
+									<use href="./images/symbol.svg#icon-iconsend"></use>
+								</svg>
+							</button>
+						</label>
+					</div>
+				</form>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -367,6 +381,46 @@
 						<use href="./images/symbol.svg#icon-close"></use>
 					</svg>
 				</button>
+				<p class="form-header">Leave your contacts and we will call you back</p>
+				<form class="modal-form">
+					<label class="form-in">
+						<span class="form-item">Name</span>
+						<span class="modal_form_input">
+							<input type="text" name="user_name" class="form-input" required />
+							<svg class="form_svg">
+								<use href="./images/symbol.svg#icon-vector1"></use>
+							</svg>
+						</span>
+					</label>
+					<label class="form-in">
+						<span class="form-item">Phone</span>
+						<span class="modal_form_input">
+							<input type="tel" name="user_phone" class="form-input" required />
+							<svg class="form_svg">
+								<use href="./images/symbol.svg#icon-vector2"></use>
+							</svg>
+						</span>
+					</label>
+					<label class="form-in">
+						<span class="form-item">Email</span>
+						<span class="modal_form_input">
+							<input type="email" name="user_email" class="form-input" />
+							<svg class="form_svg">
+								<use href="./images/symbol.svg#icon-vector3"></use>
+							</svg>
+						</span>
+					</label>
+					<label class="form-text">
+						<span class="form-item">Comment</span>
+						<textarea name="user_message" class="form_message" placeholder="Text input"></textarea>
+					</label>
+					<input id="user-police" type="checkbox" name="user-police" class="form-check" />
+					<label for="user-police" class="form-check-desc"
+						>I accept the terms and conditions of the&nbsp; <a href="">Privacy Policy</a>
+					</label>
+
+					<button type="submit" class="form-btn">Send</button>
+				</form>
 			</div>
 		</div>
 		<script src="./modal.js"></script>
