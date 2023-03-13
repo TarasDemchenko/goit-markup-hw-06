@@ -778,6 +778,7 @@ header {
 
 .modal_form_input {
     position: relative;
+
 }
 
 .form_svg {
@@ -961,9 +962,6 @@ header {
     margin-left: 24px;
     cursor: pointer;
 
-
-
-
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -982,8 +980,4 @@ header {
 .subscribe-btn:hover,
 .subscribe-btn:focus {
     background-color: var(--pressed-state);
-}
-
-.qwe {
-    text-align: center;
 }
