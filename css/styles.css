@@ -798,7 +798,7 @@ header {
     width: 100%;
     height: 40px;
     outline: none;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 38px;
     transition-property: border-color;
@@ -821,7 +821,7 @@ header {
     padding: 8px 16px;
     outline: none;
     resize: none;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
     transition-property: border-color;
